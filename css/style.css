@@ -1,0 +1,208 @@
+@font-face {
+	font-family: Prometheus;
+	src: url('../fonts/Prometheus.ttf');
+}
+
+@font-face {
+	font-family: Alien;
+	src: url('../fonts/alienleague.ttf');
+}
+
+body {
+	background-image: url('../images/backgroundPattern.jpg');
+}
+
+.navbar {
+	font-family: Alien;
+}
+
+.navbar {
+	padding: 5px;
+	font-size: 16px;
+	background-color: rgba(55, 55, 55, 0.7);
+	margin: 0px;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand img {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.nav {
+	padding-top: 3px;
+}
+
+.nav li a {
+	color: #9d9d9d;
+	transition: 0.5s ease-in-out;
+	font-size: 28px;
+}
+
+.nav li a:hover {
+	color: #048CC4;
+	background-color: transparent;
+}
+.nav-pills li.active a {
+	background-color: rgba(152, 152, 152, 0.6);
+}
+
+.nav-pills li.active a:hover {
+	background-color: #048CC4;
+}
+
+.nav .open>a, .nav .open a:focus, .nav .open a:hover {
+	background-color: rgba(152, 152, 152, 0.6);
+	color: #FFF;
+}
+
+.nav li a:focus, .nav li a:hover {
+	background-color: transparent;
+}
+
+.dropdown-menu {
+	background-color: rgba(55, 55, 55, 0.7);
+	text-align: center;
+}
+
+.dropdown-menu li a {
+	padding: 3px 0px;
+	font-size: 22px;
+}
+
+.header {
+	margin-top: 0px;
+	text-align: center;
+}
+
+.navbar .header h1 {
+	color: #9d9d9d;
+	margin-top: 10px;
+	font-size: 32px;
+	font-family: Prometheus;
+}
+
+.social ul {
+	padding-top: 3px;
+}
+
+.social ul li {
+	margin-left: 35px;
+}
+
+.social ul li a {
+	font-size: 28px;
+	color: #9d9d9d;
+	transition: 0.7s ease-in-out;
+}
+
+.social ul li a:hover {
+	color: #048CC4;
+}
+
+.active {
+	border-radius: 50%;
+}
+
+
+#main {
+	padding: 0px;
+	margin: 0px;
+}
+
+.circleCol {
+	margin-top: 100px;
+}
+
+.planet {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-size: cover;
+	transition: 0.5s ease-in-out;
+	margin: 0px auto;
+	background-repeat: no-repeat;
+	background-image: url('../images/planets.png');
+}
+
+#sun {
+	background-position: 0px;
+}
+
+#sun:hover {
+	box-shadow: 0px 0px 40px #CA5600;
+}
+
+#mercury {
+	background-position: -300px;
+}
+
+#mercury:hover {
+	box-shadow: 0px 0px 40px #504b47;
+}
+
+#venus {
+	background-position: -600px;
+}
+
+#venus:hover {
+	box-shadow: 0px 0px 40px #B1CA98;
+}
+
+#earth {
+	background-position: -900px;
+}
+
+#earth:hover {
+	box-shadow: 0px 0px 40px #1C4EAA;
+}
+
+#mars {
+	background-position: -1200px;
+}
+
+#mars:hover {
+	box-shadow: 0px 0px 40px #9F674B;
+}
+
+#jupiter {
+	background-position: -1500px;
+}
+
+#jupiter:hover {
+	box-shadow: 0px 0px 40px #EDE2C2;
+}
+
+#saturn {
+	background-position: -1800px;
+}
+
+#saturn:hover {
+	box-shadow: 0px 0px 40px #E8DBBC;
+}
+#uranus {
+	background-position: -2100px;
+}
+
+#uranus:hover {
+	box-shadow: 0px 0px 40px #1F5098;
+}
+
+#neptune {
+	background-position: -2400px;
+}
+
+#neptune:hover {
+	box-shadow: 0px 0px 40px #0B2887;
+}
+
+#pluto {
+	background-position: -2700px;
+}
+
+#pluto:hover {
+	box-shadow: 0px 0px 40px #472C1A;
+}
