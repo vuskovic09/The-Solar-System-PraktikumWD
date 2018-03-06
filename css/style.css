@@ -85,6 +85,10 @@ body {
 	font-family: Prometheus;
 }
 
+.social {
+	padding-top: 7px;
+}
+
 .social ul {
 	padding-top: 3px;
 }
