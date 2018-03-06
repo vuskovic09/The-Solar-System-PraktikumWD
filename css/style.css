@@ -54,7 +54,7 @@ body {
 	background-color: #048CC4;
 }
 
-.nav .open a, .nav .open a:focus, .nav .open a:hover {
+.nav .open>a, .nav .open a:focus, .nav .open a:hover {
 	background-color: rgba(152, 152, 152, 0.6);
 	color: #FFF;
 }
