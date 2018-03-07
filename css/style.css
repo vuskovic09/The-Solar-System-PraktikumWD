@@ -121,6 +121,11 @@ body {
 	margin-top: 100px;
 }
 
+.infoCol {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
 .planet {
 	width: 300px;
 	height: 300px;
@@ -209,4 +214,59 @@ body {
 
 #pluto:hover {
 	box-shadow: 0px 0px 40px #472C1A;
+}
+
+.infoCol {
+	padding-top: 200px;
+}
+
+.caption h4 {
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.thumbnail {
+	border: none;
+	padding-bottom: 10px;
+}
+
+.textInfo {
+	font-size: 16px;
+}
+
+.modal-content {
+	border-radius: 55px;
+}
+
+.modal-header, .modal-body, .modal-footer, .thumbnail, .thumbnail .caption {
+	background-color: rgba(55, 55, 55, 1);
+	color: #D9D9D9;
+}
+
+.modal-header {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.modal-footer {
+	border-radius: 0px 0px 5px 5px;
+	border: none;
+}
+
+.buttonInfo {
+	background-color: rgba(152, 152, 152, 0.6);
+	border: none;
+	transition: 0.5s ease-in-out;
+}
+
+.buttonInfo:hover {
+	background-color: #337ab7;
+}
+
+.btn-info.focus, .btn-info:focus {
+	background-color: rgba(152, 152, 152, 0.6);
+	border: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+	outline: none;
 }
