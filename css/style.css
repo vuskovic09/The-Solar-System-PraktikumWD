@@ -334,26 +334,20 @@ body {
 }
 
 
-@media screen and (max-width: 1310px) {
+@media screen and (min-width: 768px) {
  .nav li a, .social ul li a {
-		font-size: 22px;
+		font-size: 16px;
 	}
 
 	#header h1 {
-		font-size: 28px;
+		font-size: 20px;
 	}
 
 	.textInfo, .buttonInfo {
 		font-size: 12px;
 	}
-}
 
-@media screen and (max-width: 1310px) {
- .nav li a, .social ul li a {
-		font-size: 18px;
-	}
-
-	#header h1 {
-		font-size: 24px;
+	.social ul li {
+		margin-left: 5px
 	}
 }
