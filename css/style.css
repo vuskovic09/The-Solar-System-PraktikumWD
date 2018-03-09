@@ -4,8 +4,27 @@
 }
 
 @font-face {
+	font-family: Demi;
+	src: url('../fonts/Demi.otf');
+}
+
+@font-face {
 	font-family: Alien;
 	src: url('../fonts/alienleague.ttf');
+}
+
+body {
+	font-family: 'Demi';
+}
+
+a {
+	color: #9D9D9D;
+	transition: 0.5s;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
@@ -269,4 +288,72 @@ body {
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
 	outline: none;
+}
+
+#footer {
+	padding: 0px;
+
+	background-color: rgba(55, 55, 55, 0.7);
+}
+
+#footer ul {
+	list-style-type: none;
+	font-size: 22px;
+}
+
+#footerNav, #footerSoc {
+	border-top: 1px solid #000;
+	padding: 20px;
+}
+
+
+#footer a{
+	text-decoration: none;
+}
+
+#footer li {
+	margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+	.infoCol {
+		padding: 50px;
+	}
+
+	.caption h4 {
+		font-size: 22px;
+	}
+
+	.textInfo, .buttonInfo {
+		font-size: 14px;
+	}
+
+	.rowPlan {
+		padding-top: 200px;
+	}
+}
+
+
+@media screen and (max-width: 1310px) {
+ .nav li a, .social ul li a {
+		font-size: 22px;
+	}
+
+	#header h1 {
+		font-size: 28px;
+	}
+
+	.textInfo, .buttonInfo {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1310px) {
+ .nav li a, .social ul li a {
+		font-size: 18px;
+	}
+
+	#header h1 {
+		font-size: 24px;
+	}
 }
