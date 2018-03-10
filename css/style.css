@@ -374,6 +374,10 @@ body {
 	padding: 25px;
 }
 
+.jumbotron h2 {
+	margin-bottom: 40px;
+}
+
 .jumbotron img {
 	float: left;
 	margin-right: 20px;
@@ -390,6 +394,38 @@ body {
 .img-thumbnail {
 	border: none;
 	background-color: #9D9D9D;
+}
+
+#autor a {
+	font-size: 18px;
+}
+
+input {
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+}
+
+.form-control {
+	background-color: #787878;
+	outline: none;
+	border: none;
+}
+
+.form-control::placeholder {
+		color: #fff;
+}
+
+.jumbotron #oAutoruIMG {
+	float: none;
+}
+
+input[type="submit"], .jumbotron form button {
+	background-color: #B2443E;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -410,6 +446,7 @@ body {
 		margin-left: 5px
 	}
 }
+
 
 @media screen and (min-width: 1200px) {
 	.nav li a, .social ul li a {
