@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>SpaceX</title>
+			<description>We released some basic information on SpaceX!</description>
+			<link>http://thesolarsystemwd.000webhostapp.com/spaceX.html</link>
+		</item>
+		<item>
+			<title>NASA</title>
+			<description>We released some basic information on NASA!</description>
+			<link>http://thesolarsystemwd.000webhostapp.com/NASA.html</link>
+		</item>
+		<item>
+			<title>Contact</title>
+			<description>Contact the creator of this page!</description>
+			<link>http://thesolarsystemwd.000webhostapp.com/oAutoru.html</link>
+		</item>
+    </channel>
+</rss>
