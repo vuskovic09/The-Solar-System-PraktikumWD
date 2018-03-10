@@ -143,6 +143,7 @@ body {
 
 .circleCol {
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .infoCol {
@@ -445,6 +446,7 @@ input[type="submit"], .jumbotron form button {
 	.social ul li {
 		margin-left: 5px
 	}
+
 }
 
 
@@ -465,3 +467,9 @@ input[type="submit"], .jumbotron form button {
 		margin-left: 10px
 	}
 }
+
+@media (max-width:1250px) and (min-width:1200px) {
+    .infoCol {
+        padding: 50px;
+    }
+}​
