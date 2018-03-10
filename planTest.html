@@ -25,37 +25,35 @@
 				<nav class="navbar navbar-inverse navbar-fixed-top">
 					<div class="container-fluid">
 						<div class="row" id="header">
-							<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="col-lg-4 col-md-5 col-sm-5 col-xs-3">
 								<div class="navbar-header">
-									<a href="#" class="navbar-brand"><img src="images/logo.png" class="img-responsive" /></a>
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
+								        <span class="sr-only">Toggle navigation</span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								        <span class="icon-bar"></span>
+								    </button>
 								</div>
-								<ul class="nav nav-pills list-inline">
-					     			<li class="active"><a href="#">Home</a></li>
-					      			<li class="dropdown">
-					      				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
-					      				<ul class="dropdown-menu">
-					         				<li><a href="#">Mercury-Earth</a></li>
-								          <li><a href="#">Mars-Saturn</a></li>
-								          <li><a href="#">Uranus-Pluto</a></li>
-					       				</ul>
-					      			</li>
-					      			<li><a href="#">About</a></li>
-					    		</ul>
+								<div class="collapse navbar-collapse" id="navCollapse">
+									<ul class="nav nav-pills list-inline">
+						     			<li class="active"><a href="#">Home</a></li>
+						      			<li><a href="organizations.html">Organizations</a></li>
+						      			<li><a href="#">About</a></li>
+						    		</ul>
+						    	</div>
 					    	</div>
-					    	<div class="col-lg-4 col-md-4 col-sm-5 header">
+					    	<div class="col-lg-4 col-md-5 col-sm-4 col-xs-7 header">
 					    		<h1>The Solar System</h1>
 					    	</div>
-
 					    	<!-- Social -->
-					    	<div class="col-lg-4 col-md-4 col-sm-3 social">
+					    	<div class="col-lg-4 col-md-2 col-sm-3 hidden-xs social">
 					    		<ul class="list-inline navbar-right">
 					    			<li><a href="#"><span class="fab fa-youtube"></span></a></li>
 					    			<li><a href="#"><span class="fab fa-instagram"></span></a></li>
 					    			<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
 					    			<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-					    			<li><a href="#"><span class="fas fa-rss"></span></a></li>
 					    		</ul>
-					    	</div>
+					    	</div>    		
 						</div>
 					</div>
 				</nav>
@@ -166,13 +164,13 @@
 				
 <!-- Planete Detaljno -->
 			<div class="row" id="rowPlan">
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="mercuryInfo">
 						<img src="images/mercuryInfo.jpg" class="img-responsive" alt="Mercury Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Mercury</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>88 days</dl>
@@ -186,7 +184,7 @@
 										<dl>Trace</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>4880 km</dl>
@@ -229,13 +227,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="venusInfo">
 						<img src="images/venusInfo.jpg" alt="Venus Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Venus</h4>
 							<div class="row">
-								<div class=" col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>224 days</dl>
@@ -249,7 +247,7 @@
 										<dl>CO<sub>2</sub>, N<sub>2</sub></dl>
 									</dd>
 								</div>
-								<div class=" col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>12 104 km</dl>
@@ -290,13 +288,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="earthInfo">
 						<img src="images/earthInfo.jpg" class="img-responsive" alt="Earth Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Earth</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>365 days</dl>
@@ -310,7 +308,7 @@
 										<dl>N<sub>2</sub>, O<sub>2</sub>, Ar, H<sub>2</sub>0</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>12 742 km</dl>
@@ -351,13 +349,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="marsInfo">
 						<img src="images/marsInfo.jpg" class="img-responsive" alt="Mars Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Mars</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>687 days</dl>
@@ -371,7 +369,7 @@
 										<dl>CO<sub>2</sub>, N<sub>2</sub>, Ar</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>6779 km</dl>
@@ -412,13 +410,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="jupiterInfo">
 						<img src="images/jupiterInfo.jpg" class="img-responsive" alt="Jupiter Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Jupiter</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>11 years</dl>
@@ -432,7 +430,7 @@
 										<dl>N/A</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>139 822 km</dl>
@@ -471,13 +469,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="saturnInfo">
 						<img src="images/saturnInfo.jpg" class="img-responsive" alt="Saturn Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Saturn</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>29 years</dl>
@@ -491,7 +489,7 @@
 										<dl>N/A</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>120 536 km</dl>
@@ -530,13 +528,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="uranusInfo">
 						<img src="images/uranusInfo.jpg" class="img-responsive" alt="Uranus Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Uranus</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>83 years</dl>
@@ -550,7 +548,7 @@
 										<dl>N/A</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>51 118 km</dl>
@@ -587,13 +585,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="neptuneInfo">
 						<img src="images/neptuneInfo.jpg" class="img-responsive" alt="Neptune Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Neptune</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>163 years</dl>
@@ -607,7 +605,7 @@
 										<dl>N/A</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>49 532 km</dl>
@@ -648,13 +646,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6 infoCol">
+				<div class="col-lg-4 col-sm-6 col-xs-12 infoCol">
 					<div class="thumbnail" id="plutoInfo">
 						<img src="images/plutoInfo.jpg" class="img-responsive" alt="Pluto Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Pluto</h4>
 							<div class="row">
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Orbital Period:</dt>
 										<dl>248 years</dl>
@@ -668,7 +666,7 @@
 										<dl>N<sub>2</sub>, CO</dl>
 									</dd>
 								</div>
-								<div class="col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Diameter:</dt>
 										<dl>2370 km</dl>
@@ -711,13 +709,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-lg-offset-4 col-md-6 clearfix infoCol">
+				<div class="col-lg-4 col-lg-offset-4 col-sm-6 col-xs-12 clearfix infoCol">
 					<div class="thumbnail" id="sunInfo">
 						<img src="images/sunInfo.jpg" class="img-responsive" alt="Sun Info">	
 						<div class="planetText caption">
 							<h4 class="text-center">Sun</h4>
 							<div class="row">
-								<div class="col-lg-6 col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Age:</dt>
 										<dl>4570 * 10<sup>9</sup></dl>
@@ -731,7 +729,7 @@
 										<dl>149.6 million km</dl>
 									</dd>
 								</div>
-								<div class="col-lg-6 col-md-6 text-center textInfo">
+								<div class="col-sm-6 col-xs-6 text-center textInfo">
 									<dd>
 										<dt>Mass:</dt>
 										<dl>333,000 * Earth</dl>
@@ -772,27 +770,56 @@
 				</div>
 			</div>
 			<div class="container-fluid" id="footer">	
-				<div class="row">
-					<div class="col-lg-4 col-lg-offset-4" id="footerNav">
+				<div class="row"  id="footerNav">
+					<div class="col-lg-4 col-lg-offset-4 col-sm-12">
 						<ul class="list-inline text-center">
 							<li><a href="#">Home</a></li>
 							<li><a href="#">Gallery</a></li>
 							<li><a href="#">About</a></li>
 						</ul>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-2 col-lg-offset-2 col-sm-12 text-center" id="loginForm">
+						<a data-toggle="modal" data-target="#logMod" href="#logMod">Log in|Sign up</a>
+						<div id="logMod" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Log In/Sign Up</h3>
+								</div>
+								<div class="modal-body">
+									<form method="post">
+										<table>
+											<tr>
+												<td><input type="text" name="username" id="username" placeholder="Username" /></td>
+												<td><input type="text" name="password" id="password" placeholder="Password" /></td>
+											</tr>
+											<tr>
+												<td><input type="submit" name="login" id="login" value="Log In" /></td>
+												<td><input type="submit" name="register" id="register" value="Register" /></td>
+											</tr>
+										</table>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-12" id="footerSoc">
+				</div>
+				<div class="row" id="footerSoc">
+					<div class="col-lg-4 col-lg-offset-4 col-sm-12">
 						<ul class="list-inline text-center">	
 							<li><a href="#"><span class="fab fa-youtube"></span></a></li>
 			    			<li><a href="#"><span class="fab fa-instagram"></span></a></li>
 			    			<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
 			    			<li><a href="#"><span class="fab fa-twitter"></span></a></li>
 			    			<li><a href="#"><span class="fas fa-rss"></span></a></li>
+			    			<li><a href="#"><span class="fas fa-sitemap"></span></a></li>
 			    		</ul>
 					</div>
-					<div class="col-lg-12">
-
+					<div class="col-lg-4">
+						<p>Filip Vuskovic 143/17</p>
 					</div>
 				</div>
 			</div>
